@@ -1,0 +1,19 @@
+[
+  {"id": "c1", "name": "Carla",     "country": "Portugal", "isStudent": true,  "gender": "female"},
+  {"id": "d1", "name": "Diogo",     "country": "Portugal", "isStudent": true,  "gender": "male"},
+  {"id": "d2", "name": "Doris",     "country": "Portugal", "isStudent": true,  "gender": "female"},
+  {"id": "g1", "name": "Guilherme", "country": "Brasil",   "isStudent": true,  "gender": "male"},
+  {"id": "h1", "name": "Hugo",      "country": "Portugal", "isStudent": true,  "gender": "male"},
+  {"id": "j1", "name": "Joana",     "country": "Portugal", "isStudent": true,  "gender": "female"},
+  {"id": "j2", "name": "Joaquim",   "country": "Portugal", "isStudent": false, "gender": "male" },
+  {"id": "j3", "name": "Jorge",     "country": "Portugal", "isStudent": true,  "gender": "male"},
+  {"id": "j4", "name": "Jose",      "country": "Angola",   "isStudent": true,  "gender": "male"},
+  {"id": "m1", "name": "Maxence",   "country": "France",   "isStudent": false, "gender": "male" },
+  {"id": "m2", "name": "Mostafa",   "country": "Egypt",    "isStudent": false, "gender": "male" },
+  {"id": "n1", "name": "Natasha",   "country": "Brasil",   "isStudent": true,  "gender": "female"},
+  {"id": "n2", "name": "Nelson",    "country": "Portugal", "isStudent": true,  "gender": "male"},
+  {"id": "p1", "name": "Patricia",  "country": "Portugal", "isStudent": true,  "gender": "female"},
+  {"id": "p2", "name": "Paul",      "country": "Germany",  "isStudent": true,  "gender": "male"},
+  {"id": "s1", "name": "Sio",       "country": "Germany",  "isStudent": true,  "gender": "male"},
+  {"id": "s2", "name": "Sofia",     "country": "Portugal", "isStudent": true,  "gender": "female"}
+]
