@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Route, Link } from "react-router-dom";
+import { Route, NavLink, Switch } from "react-router-dom";
 import Home from "./Home"
 import About from "./About"
 import Users from "./Users"
@@ -13,22 +13,27 @@ function App() {
         <ul>
           <li className="name">React Routing</li>
           <li>
-            <Link to="/">Home</Link>
+            {/* Adds the class "active" when the URL is exactly "/" */}
+            <NavLink exact to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            {/* `NavLink` is like `Link` + adds the class active when the URL starts with "/about" */}
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
-            <Link to="/users">Users</Link>
+            <NavLink to="/users">Users</NavLink>
           </li>
         </ul>
       </nav>
 
-      {/* Render `Index` component when the url is exactly "/"  */}
-      <Route path="/" exact component={Home} />
-      {/* Render `About` component when the url starts with "/about"  */}
-      <Route path="/about" component={About} />
-      <Route path="/users" component={Users} />
+      <Switch>
+        {/* Render `Index` component when the url is exactly "/"  */}
+        <Route path="/" exact component={Home} />
+        {/* Render `About` component when the url starts with "/about"  */}
+        <Route path="/about" component={About} />
+        <Route path="/users" component={Users} />
+        <Route render={props => <h2>404</h2>} />
+      </Switch>
     </div>
   );
 }

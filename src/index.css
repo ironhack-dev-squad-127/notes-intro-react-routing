@@ -14,7 +14,7 @@ code {
 }
 
 nav {
-  background-color: red;
+  background-color: tomato;
   color: white;
   text-align: left;
 }
@@ -37,4 +37,8 @@ nav ul li {
 nav ul li.name {
   flex-grow: 1;
   font-weight: 700;
+}
+
+nav a.active {
+  font-weight: bold;
 }
