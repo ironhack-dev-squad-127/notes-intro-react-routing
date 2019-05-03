@@ -47,3 +47,7 @@ nav a.active {
 .Users ul {
   text-align: left;
 }
+
+.Users ul li .active{
+  font-weight: bold;
+}
